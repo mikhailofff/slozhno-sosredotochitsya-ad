@@ -145,6 +145,7 @@
 }
 
 .section__header {
+  font-size: inherit;
   font-weight: 700;
   color: var(--accent-color);
   margin-bottom: 20px;
