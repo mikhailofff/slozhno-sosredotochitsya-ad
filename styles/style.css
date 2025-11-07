@@ -2,6 +2,12 @@
 
 .page {
   min-width: 375px;
+  background-image: var(--page-background-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'IBM Plex Mono';
 }
 
 .header {
@@ -11,7 +17,6 @@
   background-position: center;
   min-height: 668px;
   padding: 10px;
-  font-family: 'IBM Plex Mono';
 }
 
 .header .overlay {
@@ -103,21 +108,39 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   padding-top: 55px;
+  padding-bottom: 55px;
   color: #DB00FF;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-.header__paragraph {
+.header__subtitle {
   position: relative;
   z-index: 1;
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
-  color: #000028;
-  padding-top: 55px;
+  color: var(--h2-text-color);
 }
 
 .title-decor {
   display: block;
   background-color: var(--accent-color);
+}
+
+.main {
+  margin: 40px 10px;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.section__header {
+  font-weight: 700;
+  color: var(--accent-color);
+  padding-bottom: 20px;
+}
+
+.section__paragraph {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: var(--section-paragraph-text-color);
 }
