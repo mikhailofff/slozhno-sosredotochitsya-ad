@@ -1,5 +1,122 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  width: 1024px;
+}
+
+.header {
+  position: relative;
+  background-image: url('../images/cover-image.png');
+  background-size: cover;
+  background-position: center;
+  height: 768px;
+  font-family: 'IBM Plex Mono';
+}
+
+.header .overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, .3);
+}
+
+.header__theme-menu {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr min-content;
+}
+
+.header__theme-menu-list {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  font-size: 18px;
+  text-transform: lowercase;
+  line-height: 18px;
+  color: var(--accent-color);
+  background-color: transparent;
+  padding: 1.5px 13px;
+  border: none;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color);
+}
+
+.header__rec {
+  position: absolute;
+  top: 20px;
+  right: 26px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 1;
+}
+
+.header__rec-text {
+  color: var(--accent-color);
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.header__rec-dot {
+  width: 9px;
+  height: 9px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px var(--accent-color);
+}
+
+.corner {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+}
+
+.corner-top-right {
+  top: 20px;
+  right: 20px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+}
+
+.corner-bottom-left {
+  top: 723px;
+  left: 20px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+}
+
+.header__title {
+  position: relative;
+  z-index: 1;
+  font-size: 157px;
+  line-height: 83%;
+  padding-top: 319px;
+  color: #DB00FF;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.header__paragraph {
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  color: #000028;
+  padding-top: 114px;
+  padding-left: 513px;
+}
+
+.title-decor {
+  display: block;
+  margin-right: 20px;
+  background-color: var(--accent-color);
 }
