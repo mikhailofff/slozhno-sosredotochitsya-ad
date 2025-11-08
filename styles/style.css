@@ -157,5 +157,19 @@
 }
 
 .section__paragraph-last {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.header__subtitle-images {
+  margin-bottom: 10px;
+}
+
+.section__images {
+  display: grid;
+  grid-template-rows: repeat(5, fit-content(100%));
+  gap: 10px;
+}
+
+.section__image {
+  width: 355px;
 }
