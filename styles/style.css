@@ -58,8 +58,7 @@
 
 .header__rec {
   position: absolute;
-  top: 10px;
-  right: 19px;
+  right: 9px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -81,6 +80,10 @@
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
+.decorated-zone {
+  position: relative;
+}
+
 .corner {
   position: absolute;
   width: 25px;
@@ -96,8 +99,8 @@
 }
 
 .corner-bottom-left {
-  top: 623px;
-  left: 0;
+  bottom: 10px;
+  left: 10px;
   border-bottom: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
 }
@@ -172,4 +175,9 @@
 
 .section__image {
   width: 355px;
+}
+
+.footer__title {
+  padding: 251px 10px 250px;
+  text-shadow: 1px 3px 0 var(--accent-color);
 }
