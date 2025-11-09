@@ -7,6 +7,7 @@
 :root.theme-dark {
   --header-background-image: url('../images/cover-image-dark.png');
   --accent-color: #FF0070;
+  --border-color: #FF0070;
   --page-background-color: #000028;
   --header-title-color: #DB00FF;
   --section-header-color: #FF0070;
