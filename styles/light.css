@@ -5,10 +5,14 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --header-background-image: url('../images/cover-image-light.png');
+  --accent-color: #FF8DCB;
+  --page-background-color: #F1B2CE;
+  --header-title-color: #FFC2E6;
+  --section-header-color: #353430;
+  --subtitles-text-color: #353430;
+  --section-paragraph-text-color: #353430;
+  --footer-text-shadow: #FF0070;
 }
 
 .theme-light .page {
