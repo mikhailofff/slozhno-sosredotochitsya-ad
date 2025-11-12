@@ -16,7 +16,6 @@
   background-image: var(--header-background-image);
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
   min-height: 100dvh;
   padding: 10px;
 }
@@ -115,7 +114,7 @@
 .header__title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
-  padding-top: 55px;
+  padding-top: 65px;
   padding-bottom: 65px;
   color: var(--header-title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
@@ -173,6 +172,7 @@
 .section__paragraph {
   margin-top: 10px;
   color: var(--section-paragraph-text-color);
+  margin-bottom: 20px;
 }
 
 .section__paragraph-last {
