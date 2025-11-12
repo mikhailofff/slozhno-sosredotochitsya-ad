@@ -123,12 +123,8 @@
 .header__subtitle {
   font-size: 18px;
   font-weight: 700;
-  line-height: 23.4px;
+  line-height: 1.3em;
   color: var(--subtitles-text-color);
-}
-
-.header__subtitle-nowrap {
-  white-space: nowrap;
 }
 
 .section__block {
@@ -141,6 +137,7 @@
   font-weight: 700;
   line-height: 23.4px;
   color: var(--subtitles-text-color);
+  margin-bottom: 10px;
 }
 
 .section__subsubtitle {
@@ -148,7 +145,7 @@
   font-weight: 400;
   line-height: 23.4px;
   color: var(--subtitles-text-color);
-  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .title-decor {
@@ -170,7 +167,6 @@
 }
 
 .section__paragraph {
-  margin-top: 10px;
   color: var(--section-paragraph-text-color);
   margin-bottom: 20px;
 }
@@ -201,7 +197,7 @@
   }
 
   .header__theme-menu-list {
-    padding-top: 192px;
+    padding-top: 182px;
   }
 
   .corner-top-right {
