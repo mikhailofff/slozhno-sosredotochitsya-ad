@@ -132,6 +132,11 @@
   white-space: nowrap;
 }
 
+.section__block {
+  display: flex;
+  flex-direction: column;
+}
+
 .section__subtitle {
   font-size: 18px;
   font-weight: 700;
@@ -167,7 +172,6 @@
 
 .section__paragraph {
   margin-top: 10px;
-  margin-bottom: 20px;
   color: var(--section-paragraph-text-color);
 }
 
@@ -253,11 +257,8 @@
     grid-column: 1;
   }
 
-  .section:nth-child(1) > .section__subtitle,
-  .section:nth-child(1) > .section__paragraph,
-  .section:nth-child(3) > .section__subtitle,
-  .section:nth-child(3) > .section__subsubtitle,
-  .section:nth-child(3) > .section__paragraph {
+  .section:nth-child(1) > .section__block,
+  .section:nth-child(3) > .section__block {
     grid-column: 2;
   }
 
