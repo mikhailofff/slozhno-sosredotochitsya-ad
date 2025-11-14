@@ -3,7 +3,6 @@
 .page {
   min-width: 375px;
   background-color: var(--page-background-color);
-  background-image: var(--page-background-image);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,14 +40,14 @@
   color: var(--accent-color);
   background-color: transparent;
   padding: 1.5px 13px;
-  border: 1px solid transparent;
+  border: none;
   text-align: right;
   cursor: pointer;
   transition: border-color 0.3s;
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--border-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .header__theme-menu-button:focus {
@@ -56,7 +55,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-color: var(--border-color);
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .header__theme-menu-button_active {
@@ -137,7 +136,7 @@
   font-weight: 700;
   line-height: 23.4px;
   color: var(--subtitles-text-color);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .section__subsubtitle {
