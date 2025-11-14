@@ -60,7 +60,7 @@
 }
 
 .header__theme-menu-button_active {
-  border-color: var(--border-color);
+  outline: 1px solid var(--accent-color);
   pointer-events: none;
 }
 
@@ -137,7 +137,7 @@
   font-weight: 700;
   line-height: 23.4px;
   color: var(--subtitles-text-color);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .section__subsubtitle {
